@@ -24,8 +24,4 @@ export class HeaderComponent {
 
   private readonly pieService = inject(PieService);
 
-  changeCategory(category: Category){
-    this.pieService.setSelectedCategory(category);
-  }
-
 }
